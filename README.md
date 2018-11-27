@@ -16,8 +16,8 @@ $ bundle
 Example
 ```ruby
 = simple_form_for ... do |f|
-  = f.input :date, as: :date_picker
-  = f.input :date, as: :currency
-  = f.input :date, as: :datetime_picker
+  = f.input :date, as: 'simple_form_bootstrap_inputs/date_picker'
+  = f.input :date, as: 'simple_form_bootstrap_inputs/currency'
+  = f.input :date, as: 'simple_form_bootstrap_inputs/datetime_picker'
 ...
 ```
