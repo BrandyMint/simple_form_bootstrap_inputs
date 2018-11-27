@@ -1,4 +1,6 @@
 # rubocop:disable all
+require 'simple_form'
+
 module SimpleFormBootstrapInputs
   class CurrencyInput < SimpleForm::Inputs::Base
     def input(wrapper_options)
