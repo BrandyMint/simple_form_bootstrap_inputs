@@ -1,6 +1,7 @@
 require_relative 'boot'
 
-require 'rails/all'
+require 'rubygems'
+require 'bundler/setup'
 
 Bundler.require(*Rails.groups)
 require "simple_form_bootstrap_inputs"
@@ -16,4 +17,3 @@ module Dummy
     # the framework and any gems in your application.
   end
 end
-
