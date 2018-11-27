@@ -1,14 +1,10 @@
 # SimpleFormBootstrapInputs
-Short description and motivation.
-
-## Usage
-How to use my plugin.
 
 ## Installation
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'simple_form_bootstrap_inputs'
+gem 'simple_form_bootstrap_inputs', github: 'ValentinAndreev/simple_form_bootstrap_inputs'
 ```
 
 And then execute:
@@ -16,13 +12,11 @@ And then execute:
 $ bundle
 ```
 
-Or install it yourself as:
-```bash
-$ gem install simple_form_bootstrap_inputs
-```
+## Usage
+Example
 
-## Contributing
-Contribution directions go here.
-
-## License
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+= simple_form_for ... do |f|
+  = f.input :date, as: :date_picker
+  = f.input :date, as: :currency
+  = f.input :date, as: :datetime_picker
+...
