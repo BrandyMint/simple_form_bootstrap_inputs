@@ -21,4 +21,5 @@ Gem::Specification.new do |s|
   s.add_dependency 'bootstrap3-datetimepicker-rails', '~> 4.17.47'
   s.add_dependency 'jquery-rails'
   s.add_dependency 'jquery-ui-rails'
+  s.add_dependency 'simple_form'
 end
