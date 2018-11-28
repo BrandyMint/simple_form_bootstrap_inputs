@@ -22,9 +22,9 @@ Example
 ...
 ```
 date - дата по умолчанию в формате: 'YYYY-MM-DD'\
-![date](https://github.com/BrandyMint/simple_form_bootstrap_inputs/doc/date?raw=true)\
+![date](https://github.com/BrandyMint/simple_form_bootstrap_inputs/doc/date.png?raw=true)\
 datetime - дата и время в формате: 'YYYY-MM-DD' + ' ' + 'HH:mm'\
-![datetime](https://github.com/BrandyMint/simple_form_bootstrap_inputs/doc/datetime?raw=true)\
+![datetime](https://github.com/BrandyMint/simple_form_bootstrap_inputs/doc/datetime.png?raw=true)\
 currency:\
 у model должны быть 2 аттрибута, например - value и value_currency - string\
-![currency](https://github.com/BrandyMint/simple_form_bootstrap_inputs/doc/currency?raw=true)
+![currency](https://github.com/BrandyMint/simple_form_bootstrap_inputs/doc/currency.png?raw=true)
