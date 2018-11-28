@@ -1,13 +1,11 @@
 # SimpleFormBootstrapInputs
 
-## Installation
-Add this line to your application's Gemfile:
+## Установка
 
 ```ruby
 gem 'simple_form_bootstrap_inputs', github: 'BrandyMint/simple_form_bootstrap_inputs'
 ```
 
-And then execute:
 ```bash
 $ bundle
 ```
@@ -15,15 +13,15 @@ $ bundle
 Необходим bootstrap и bootstrap-datetimepicker\
 В application.js:\
 //= require bootstrap\
-//= require bootstrap-datetimepicker\
+//= require bootstrap-datetimepicker
 ```javascript
 document.addEventListener("turbolinks:load", function() {
   $('div.datetimepicker').datetimepicker({ locale: 'ru', format: 'DD-MM-YYYY' });
 });
 ```
 
-## Usage
-Example
+## Использование
+Пример
 ```ruby
 = simple_form_for model do |f|
   = f.input :date, as: 'simple_form_bootstrap_inputs/date_picker'
