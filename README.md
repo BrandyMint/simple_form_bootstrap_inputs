@@ -12,6 +12,16 @@ And then execute:
 $ bundle
 ```
 
+Необходим bootstrap и bootstrap-datetimepicker\
+В application.js:\
+//= require bootstrap\
+//= require bootstrap-datetimepicker\
+```javascript
+document.addEventListener("turbolinks:load", function() {
+  $('div.datetimepicker').datetimepicker({ locale: 'ru', format: 'DD-MM-YYYY' });
+});
+```
+
 ## Usage
 Example
 ```ruby
