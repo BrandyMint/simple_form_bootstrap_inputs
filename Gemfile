@@ -13,5 +13,3 @@ gemspec
 
 # To use a debugger
 # gem 'byebug', group: [:development, :test]
-
-gem 'simple_form', git: 'git://github.com/plataformatec/simple_form.git'
